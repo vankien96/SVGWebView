@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SVGWebView" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pdf-5Y-sgc" customClass="SVGWebView" customModule="SVGWebView" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="44" width="414" height="537.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5gf-YA-FDO">
+                                <rect key="frame" x="370" y="543.5" width="36" height="30"/>
+                                <state key="normal" title="Clear"/>
+                                <connections>
+                                    <action selector="didTapClearButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m49-1R-FDj"/>
+                                </connections>
+                            </button>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-DX-Txs">
+                                <rect key="frame" x="0.0" y="581.5" width="414" height="280.5"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="FuK-DX-Txs" secondAttribute="trailing" id="1Ho-P3-rM3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5gf-YA-FDO" secondAttribute="trailing" constant="8" id="1S2-sn-asy"/>
+                            <constraint firstItem="pdf-5Y-sgc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jha-ff-cnl"/>
+                            <constraint firstItem="pdf-5Y-sgc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="JkJ-xs-BcB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="pdf-5Y-sgc" secondAttribute="trailing" id="JwS-Qc-gqs"/>
+                            <constraint firstItem="pdf-5Y-sgc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.6" id="OAc-JS-wXI"/>
+                            <constraint firstItem="FuK-DX-Txs" firstAttribute="top" secondItem="5gf-YA-FDO" secondAttribute="bottom" constant="8" id="ZRn-s9-I7j"/>
+                            <constraint firstItem="FuK-DX-Txs" firstAttribute="top" secondItem="pdf-5Y-sgc" secondAttribute="bottom" id="cNc-1z-lVJ"/>
+                            <constraint firstItem="FuK-DX-Txs" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="feE-WN-mGb"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="FuK-DX-Txs" secondAttribute="bottom" id="qyl-c4-pj9"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="svgWebView" destination="pdf-5Y-sgc" id="bd8-xx-Gyd"/>
+                        <outlet property="tableView" destination="FuK-DX-Txs" id="Nz1-UH-j80"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139" y="99"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

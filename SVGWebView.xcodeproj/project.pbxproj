@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CBA19C325EF377D00674C58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA19C225EF377D00674C58 /* AppDelegate.swift */; };
+		3CBA19C525EF377D00674C58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA19C425EF377D00674C58 /* SceneDelegate.swift */; };
+		3CBA19C725EF377D00674C58 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA19C625EF377D00674C58 /* ViewController.swift */; };
+		3CBA19CA25EF377D00674C58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA19C825EF377D00674C58 /* Main.storyboard */; };
+		3CBA19CC25EF377F00674C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA19CB25EF377F00674C58 /* Assets.xcassets */; };
+		3CBA19CF25EF377F00674C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA19CD25EF377F00674C58 /* LaunchScreen.storyboard */; };
+		3CBA19DA25EF378000674C58 /* SVGWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA19D925EF378000674C58 /* SVGWebViewTests.swift */; };
+		3CBA19E525EF378000674C58 /* SVGWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA19E425EF378000674C58 /* SVGWebViewUITests.swift */; };
+		3CBA19FF25EF38BE00674C58 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA19FC25EF38BD00674C58 /* index.html */; };
+		3CBA1A0125EF38BE00674C58 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA19FE25EF38BE00674C58 /* main.js */; };
+		3CBA1A1E25EF66E400674C58 /* SVGWebView+Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A1C25EF66E400674C58 /* SVGWebView+Configuration.swift */; };
+		3CBA1A1F25EF66E400674C58 /* SVGWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A1D25EF66E400674C58 /* SVGWebView.swift */; };
+		3CBA1A2425EF673600674C58 /* princess.svg in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA1A2325EF673600674C58 /* princess.svg */; };
+		3CBA1A2D25EF6F0300674C58 /* SVGPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A2C25EF6F0300674C58 /* SVGPath.swift */; };
+		3CBA1A3725EF763100674C58 /* UIColor+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A3625EF763100674C58 /* UIColor+.swift */; };
+		3CBA1A4A25EF95E500674C58 /* MarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA1A4625EF95E500674C58 /* MarkerView.xib */; };
+		3CBA1A4B25EF95E500674C58 /* MarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A4725EF95E500674C58 /* MarkerView.swift */; };
+		3CBA1A4C25EF95E500674C58 /* PriceMarkerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CBA1A4825EF95E500674C58 /* PriceMarkerView.xib */; };
+		3CBA1A4D25EF95E500674C58 /* PriceMarkerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A4925EF95E500674C58 /* PriceMarkerView.swift */; };
+		3CBA1A5225EF95FA00674C58 /* LoadableFromXibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CBA1A5125EF95FA00674C58 /* LoadableFromXibView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CBA19D625EF378000674C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBA19B725EF377D00674C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBA19BE25EF377D00674C58;
+			remoteInfo = SVGWebView;
+		};
+		3CBA19E125EF378000674C58 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CBA19B725EF377D00674C58 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CBA19BE25EF377D00674C58;
+			remoteInfo = SVGWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CBA19BF25EF377D00674C58 /* SVGWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SVGWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBA19C225EF377D00674C58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CBA19C425EF377D00674C58 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3CBA19C625EF377D00674C58 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3CBA19C925EF377D00674C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CBA19CB25EF377F00674C58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CBA19CE25EF377F00674C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CBA19D025EF377F00674C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBA19D525EF378000674C58 /* SVGWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBA19D925EF378000674C58 /* SVGWebViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGWebViewTests.swift; sourceTree = "<group>"; };
+		3CBA19DB25EF378000674C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBA19E025EF378000674C58 /* SVGWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SVGWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CBA19E425EF378000674C58 /* SVGWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGWebViewUITests.swift; sourceTree = "<group>"; };
+		3CBA19E625EF378000674C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CBA19FC25EF38BD00674C58 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3CBA19FE25EF38BE00674C58 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		3CBA1A1C25EF66E400674C58 /* SVGWebView+Configuration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SVGWebView+Configuration.swift"; sourceTree = "<group>"; };
+		3CBA1A1D25EF66E400674C58 /* SVGWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SVGWebView.swift; sourceTree = "<group>"; };
+		3CBA1A2325EF673600674C58 /* princess.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = princess.svg; sourceTree = "<group>"; };
+		3CBA1A2C25EF6F0300674C58 /* SVGPath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVGPath.swift; sourceTree = "<group>"; };
+		3CBA1A3625EF763100674C58 /* UIColor+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+.swift"; sourceTree = "<group>"; };
+		3CBA1A4625EF95E500674C58 /* MarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MarkerView.xib; sourceTree = "<group>"; };
+		3CBA1A4725EF95E500674C58 /* MarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkerView.swift; sourceTree = "<group>"; };
+		3CBA1A4825EF95E500674C58 /* PriceMarkerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PriceMarkerView.xib; sourceTree = "<group>"; };
+		3CBA1A4925EF95E500674C58 /* PriceMarkerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceMarkerView.swift; sourceTree = "<group>"; };
+		3CBA1A5125EF95FA00674C58 /* LoadableFromXibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadableFromXibView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CBA19BC25EF377D00674C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19D225EF378000674C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19DD25EF378000674C58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CBA19B625EF377D00674C58 = {
+			isa = PBXGroup;
+			children = (
+				3CBA19C125EF377D00674C58 /* SVGWebView */,
+				3CBA19D825EF378000674C58 /* SVGWebViewTests */,
+				3CBA19E325EF378000674C58 /* SVGWebViewUITests */,
+				3CBA19C025EF377D00674C58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3CBA19C025EF377D00674C58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA19BF25EF377D00674C58 /* SVGWebView.app */,
+				3CBA19D525EF378000674C58 /* SVGWebViewTests.xctest */,
+				3CBA19E025EF378000674C58 /* SVGWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CBA19C125EF377D00674C58 /* SVGWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A3425EF761700674C58 /* Common */,
+				3CBA1A2B25EF6EF700674C58 /* Model */,
+				3CBA19F725EF386400674C58 /* Application */,
+				3CBA19F625EF385400674C58 /* Resources */,
+				3CBA1A4425EF95C700674C58 /* CustomView */,
+				3CBA19C625EF377D00674C58 /* ViewController.swift */,
+				3CBA19C825EF377D00674C58 /* Main.storyboard */,
+			);
+			path = SVGWebView;
+			sourceTree = "<group>";
+		};
+		3CBA19D825EF378000674C58 /* SVGWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA19D925EF378000674C58 /* SVGWebViewTests.swift */,
+				3CBA19DB25EF378000674C58 /* Info.plist */,
+			);
+			path = SVGWebViewTests;
+			sourceTree = "<group>";
+		};
+		3CBA19E325EF378000674C58 /* SVGWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA19E425EF378000674C58 /* SVGWebViewUITests.swift */,
+				3CBA19E625EF378000674C58 /* Info.plist */,
+			);
+			path = SVGWebViewUITests;
+			sourceTree = "<group>";
+		};
+		3CBA19F525EF379A00674C58 /* SVGWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A1D25EF66E400674C58 /* SVGWebView.swift */,
+				3CBA1A1C25EF66E400674C58 /* SVGWebView+Configuration.swift */,
+			);
+			path = SVGWebView;
+			sourceTree = "<group>";
+		};
+		3CBA19F625EF385400674C58 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA19FB25EF389D00674C58 /* SVGData */,
+				3CBA19CD25EF377F00674C58 /* LaunchScreen.storyboard */,
+				3CBA19CB25EF377F00674C58 /* Assets.xcassets */,
+				3CBA19D025EF377F00674C58 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3CBA19F725EF386400674C58 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA19C225EF377D00674C58 /* AppDelegate.swift */,
+				3CBA19C425EF377D00674C58 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		3CBA19FB25EF389D00674C58 /* SVGData */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A2325EF673600674C58 /* princess.svg */,
+				3CBA19FC25EF38BD00674C58 /* index.html */,
+				3CBA19FE25EF38BE00674C58 /* main.js */,
+			);
+			path = SVGData;
+			sourceTree = "<group>";
+		};
+		3CBA1A2B25EF6EF700674C58 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A2C25EF6F0300674C58 /* SVGPath.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3CBA1A3425EF761700674C58 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A3525EF761E00674C58 /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3CBA1A3525EF761E00674C58 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A3625EF763100674C58 /* UIColor+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CBA1A4425EF95C700674C58 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A5125EF95FA00674C58 /* LoadableFromXibView.swift */,
+				3CBA19F525EF379A00674C58 /* SVGWebView */,
+				3CBA1A4525EF95D400674C58 /* MarkerView */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		3CBA1A4525EF95D400674C58 /* MarkerView */ = {
+			isa = PBXGroup;
+			children = (
+				3CBA1A4725EF95E500674C58 /* MarkerView.swift */,
+				3CBA1A4625EF95E500674C58 /* MarkerView.xib */,
+				3CBA1A4925EF95E500674C58 /* PriceMarkerView.swift */,
+				3CBA1A4825EF95E500674C58 /* PriceMarkerView.xib */,
+			);
+			path = MarkerView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CBA19BE25EF377D00674C58 /* SVGWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBA19E925EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebView" */;
+			buildPhases = (
+				3CBA19BB25EF377D00674C58 /* Sources */,
+				3CBA19BC25EF377D00674C58 /* Frameworks */,
+				3CBA19BD25EF377D00674C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVGWebView;
+			productName = SVGWebView;
+			productReference = 3CBA19BF25EF377D00674C58 /* SVGWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CBA19D425EF378000674C58 /* SVGWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBA19EC25EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebViewTests" */;
+			buildPhases = (
+				3CBA19D125EF378000674C58 /* Sources */,
+				3CBA19D225EF378000674C58 /* Frameworks */,
+				3CBA19D325EF378000674C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBA19D725EF378000674C58 /* PBXTargetDependency */,
+			);
+			name = SVGWebViewTests;
+			productName = SVGWebViewTests;
+			productReference = 3CBA19D525EF378000674C58 /* SVGWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CBA19DF25EF378000674C58 /* SVGWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CBA19EF25EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebViewUITests" */;
+			buildPhases = (
+				3CBA19DC25EF378000674C58 /* Sources */,
+				3CBA19DD25EF378000674C58 /* Frameworks */,
+				3CBA19DE25EF378000674C58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CBA19E225EF378000674C58 /* PBXTargetDependency */,
+			);
+			name = SVGWebViewUITests;
+			productName = SVGWebViewUITests;
+			productReference = 3CBA19E025EF378000674C58 /* SVGWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CBA19B725EF377D00674C58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					3CBA19BE25EF377D00674C58 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					3CBA19D425EF378000674C58 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3CBA19BE25EF377D00674C58;
+					};
+					3CBA19DF25EF378000674C58 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 3CBA19BE25EF377D00674C58;
+					};
+				};
+			};
+			buildConfigurationList = 3CBA19BA25EF377D00674C58 /* Build configuration list for PBXProject "SVGWebView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CBA19B625EF377D00674C58;
+			productRefGroup = 3CBA19C025EF377D00674C58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CBA19BE25EF377D00674C58 /* SVGWebView */,
+				3CBA19D425EF378000674C58 /* SVGWebViewTests */,
+				3CBA19DF25EF378000674C58 /* SVGWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CBA19BD25EF377D00674C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBA19CF25EF377F00674C58 /* LaunchScreen.storyboard in Resources */,
+				3CBA19FF25EF38BE00674C58 /* index.html in Resources */,
+				3CBA1A4A25EF95E500674C58 /* MarkerView.xib in Resources */,
+				3CBA1A0125EF38BE00674C58 /* main.js in Resources */,
+				3CBA1A4C25EF95E500674C58 /* PriceMarkerView.xib in Resources */,
+				3CBA19CC25EF377F00674C58 /* Assets.xcassets in Resources */,
+				3CBA19CA25EF377D00674C58 /* Main.storyboard in Resources */,
+				3CBA1A2425EF673600674C58 /* princess.svg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19D325EF378000674C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19DE25EF378000674C58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CBA19BB25EF377D00674C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBA1A5225EF95FA00674C58 /* LoadableFromXibView.swift in Sources */,
+				3CBA1A4B25EF95E500674C58 /* MarkerView.swift in Sources */,
+				3CBA1A4D25EF95E500674C58 /* PriceMarkerView.swift in Sources */,
+				3CBA19C725EF377D00674C58 /* ViewController.swift in Sources */,
+				3CBA1A1F25EF66E400674C58 /* SVGWebView.swift in Sources */,
+				3CBA1A1E25EF66E400674C58 /* SVGWebView+Configuration.swift in Sources */,
+				3CBA19C325EF377D00674C58 /* AppDelegate.swift in Sources */,
+				3CBA19C525EF377D00674C58 /* SceneDelegate.swift in Sources */,
+				3CBA1A2D25EF6F0300674C58 /* SVGPath.swift in Sources */,
+				3CBA1A3725EF763100674C58 /* UIColor+.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19D125EF378000674C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBA19DA25EF378000674C58 /* SVGWebViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CBA19DC25EF378000674C58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CBA19E525EF378000674C58 /* SVGWebViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CBA19D725EF378000674C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBA19BE25EF377D00674C58 /* SVGWebView */;
+			targetProxy = 3CBA19D625EF378000674C58 /* PBXContainerItemProxy */;
+		};
+		3CBA19E225EF378000674C58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CBA19BE25EF377D00674C58 /* SVGWebView */;
+			targetProxy = 3CBA19E125EF378000674C58 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CBA19C825EF377D00674C58 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBA19C925EF377D00674C58 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CBA19CD25EF377F00674C58 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CBA19CE25EF377F00674C58 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CBA19E725EF378000674C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CBA19E825EF378000674C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CBA19EA25EF378000674C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebView/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CBA19EB25EF378000674C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebView/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CBA19ED25EF378000674C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGWebView.app/SVGWebView";
+			};
+			name = Debug;
+		};
+		3CBA19EE25EF378000674C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SVGWebView.app/SVGWebView";
+			};
+			name = Release;
+		};
+		3CBA19F025EF378000674C58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGWebView;
+			};
+			name = Debug;
+		};
+		3CBA19F125EF378000674C58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UDKFR68Z2K;
+				INFOPLIST_FILE = SVGWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vankien.SVGWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SVGWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CBA19BA25EF377D00674C58 /* Build configuration list for PBXProject "SVGWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBA19E725EF378000674C58 /* Debug */,
+				3CBA19E825EF378000674C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBA19E925EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBA19EA25EF378000674C58 /* Debug */,
+				3CBA19EB25EF378000674C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBA19EC25EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBA19ED25EF378000674C58 /* Debug */,
+				3CBA19EE25EF378000674C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CBA19EF25EF378000674C58 /* Build configuration list for PBXNativeTarget "SVGWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CBA19F025EF378000674C58 /* Debug */,
+				3CBA19F125EF378000674C58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CBA19B725EF377D00674C58 /* Project object */;
+}
