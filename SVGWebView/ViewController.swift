@@ -69,7 +69,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let path = svgWebView.paths[indexPath.row]
-        svgWebView.zoomToPath(path: path)
+        svgWebView.zoomTo(path: path)
         svgWebView.clearAll()
         svgWebView.drawColor(pathID: path.id, color: UIColor.random.toHexString())
     }

@@ -33,11 +33,11 @@ extension SVGPath {
     static func from(string: String) -> [SVGPath] {
         guard let data = string.data(using: .utf8) else { return [] }
         guard let datas = try? JSONSerialization.jsonObject(with: data, options: .allowFragments) as? [[String: Any]] else { return [] }
-        var seats = [SVGPath]()
+        var paths = [SVGPath]()
         for data in datas {
             guard let path = SVGPath(with: data) else { continue }
-            seats.append(path)
+            paths.append(path)
         }
-        return seats
+        return paths
     }
 }

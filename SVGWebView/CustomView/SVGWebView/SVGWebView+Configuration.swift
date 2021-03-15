@@ -12,7 +12,7 @@ import WebKit
 struct WebViewActionKey {
     static let log = "log"
     static let didTapPath = "didTapPath"
-    static let transferBlocksInfo = "transferBlocksInfo"
+    static let transferPathsInfo = "transferPathsInfo"
 }
 
 extension SVGWebView {
@@ -20,18 +20,10 @@ extension SVGWebView {
     func getWebViewConfig() -> WKWebViewConfiguration {
         let config = WKWebViewConfiguration()
         let pref = WKPreferences()
-        if #available(iOS 14, *) {
-            let page = WKWebpagePreferences()
-            page.preferredContentMode = .mobile
-            config.defaultWebpagePreferences = page
-        } else {
-            pref.javaScriptCanOpenWindowsAutomatically = false
-            pref.javaScriptEnabled = true
-            config.preferences = pref
-        }
+        config.preferences = pref
         config.userContentController.add(self, name: WebViewActionKey.log)
         config.userContentController.add(self, name: WebViewActionKey.didTapPath)
-        config.userContentController.add(self, name: WebViewActionKey.transferBlocksInfo)
+        config.userContentController.add(self, name: WebViewActionKey.transferPathsInfo)
         return config
     }
 }
@@ -44,7 +36,7 @@ extension SVGWebView: WKScriptMessageHandler {
             print("JAVASCRIPT LOG: ", message.body)
         case WebViewActionKey.didTapPath:
             delegate?.didTapPath(pathID: (message.body as? String) ?? "")
-        case WebViewActionKey.transferBlocksInfo:
+        case WebViewActionKey.transferPathsInfo:
             let paths = SVGPath.from(string: (message.body as? String) ?? "")
             self.paths = paths
             delegate?.didLoadPaths(paths: paths)

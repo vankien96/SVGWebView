@@ -30,7 +30,7 @@ function setupPaths() {
         pathsInfo.push(data)
     })
     const elementsString = JSON.stringify(pathsInfo)
-    webkit.messageHandlers.transferBlocksInfo.postMessage(elementsString)
+    webkit.messageHandlers.transferPathsInfo.postMessage(elementsString)
 }
 
 function drawColor(pathID, color) {

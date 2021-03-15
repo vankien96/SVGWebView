@@ -54,7 +54,7 @@ class SVGWebView: UIView {
         guard let data = try? Data(contentsOf: URL(fileURLWithPath: path)) else { return }
         guard let rawSVG = String(data: data, encoding: .utf8) else { return }
         let loadSVG = "loadSVG('\(minifySVG(svg: rawSVG))')"
-        webView.evaluateJavaScript(loadSVG, completionHandler: { _, _ in })
+        webView.evaluateJavaScript(loadSVG)
     }
 }
 
@@ -123,7 +123,7 @@ extension SVGWebView {
         self.webView.evaluateJavaScript(script, completionHandler: nil)
     }
     
-    func zoomToPath(path: SVGPath) {
+    func zoomTo(path: SVGPath) {
         let center = path.rect
         let zoomScale = getZoomLevel(rect: center)
         zoom(rect: center, zoomScale: zoomScale)
